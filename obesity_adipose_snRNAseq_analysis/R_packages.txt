@@ -1,0 +1,22 @@
+# R packages used by this repository.
+#
+# The organism annotation package is selected by `organism` in
+# scripts/00_config.R: org.Hs.eg.db for human (default) or org.Mm.eg.db for
+# mouse. Install whichever one matches the data; org.Hs.eg.db is listed below.
+
+Seurat
+harmony
+ggplot2
+patchwork
+dplyr
+CellChat
+ComplexHeatmap
+future
+fgsea
+msigdbr
+ggpointdensity
+viridis
+here
+clusterProfiler
+enrichplot
+org.Hs.eg.db
